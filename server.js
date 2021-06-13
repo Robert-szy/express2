@@ -4,7 +4,6 @@ const hbs = require('express-handlebars');
 
 const app = express();
 
-//app.engine('.hbs', hbs());
 app.engine('.hbs', hbs({ extname: 'hbs', layoutsDir: './layouts', defaultLayout: 'main'}));
 app.set('view engine', '.hbs');
 
@@ -20,6 +19,10 @@ app.get('/home', (req, res) => {
 
 app.get('/about', (req, res) => {
   res.render('about');
+});
+
+app.get('/history', (req, res) => {
+  res.render('history');
 });
 
 app.get('/contact', (req, res) => {
