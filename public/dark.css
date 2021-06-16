@@ -1,9 +1,28 @@
-
 body {
-  background-color: black;
-  color: white;
+  background: black;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  padding: 30px;
+  text-align: center;
 }
 
 h2 {
-  font-weight: bold;
+  font-weight: lighter;
+  font-size: 3rem;
+}
+
+p {
+  color: #999;
+  font-size: 1.2rem;
+  
+}
+
+a {
+  color: #999;
+  font-size: 0.8rem;
+}
+
+.foot {
+  font-size: 0.8rem;
+
 }
